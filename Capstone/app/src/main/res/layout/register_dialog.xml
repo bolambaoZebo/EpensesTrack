@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#812815"
+        >
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/logoreg"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="4dp"
+        android:background="#812815"
+        >
+
+        <EditText
+            android:id="@+id/edt_rstudID"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:backgroundTint="@android:color/white"
+            android:hint="Enter Student ID"
+            android:layout_marginBottom="25dp"/>
+
+
+            />
+        <EditText
+            android:id="@+id/edt_rstudname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFF"
+            android:backgroundTint="@android:color/white"
+            android:hint="Enter Username"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btn_registerADD"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            android:text="CREATE ACCOUNT"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

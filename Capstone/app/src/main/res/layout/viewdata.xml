@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="com.example.app.mytipid.Viewdata">
+
+
+   <LinearLayout
+       android:id="@+id/lin_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@color/red">
+
+       <ImageButton
+           android:id="@+id/imgbtn_backhome"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/ic_arrow_back_black_24dp" />
+       <Button
+           android:id="@+id/toPie"
+           android:layout_width="match_parent"
+           android:layout_height="92dp"
+           android:layout_above="@+id/recyclerView"
+           android:layout_alignParentTop="true"
+           android:layout_marginBottom="0dp"
+           android:background="@color/red"
+           android:text="Expenses Summary"
+           android:textColor="@android:color/white" />
+       <TextView
+           android:id="@+id/txt_months"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:background="@color/green"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:textColor="@android:color/white"
+           android:layout_gravity="center_horizontal"
+           android:textAlignment="center"/>
+
+
+   </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="567dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-2dp"
+        android:layout_below="@+id/lin_view"
+        tools:context="com.example.app.mytipid.Viewdata">
+
+
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
+
+

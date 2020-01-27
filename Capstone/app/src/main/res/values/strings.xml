@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyTipid</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="types">
+        <item>Type</item>
+        <item>Bills</item>
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Transportation</item>
+    </string-array>
+
+</resources>
